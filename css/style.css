@@ -18,7 +18,10 @@ a{
 .blue-button{
     color: white;
     background-color: rgb( 1, 96, 255);
-    padding: 5px 10px;
+}
+
+p{
+    font-size: 14px;
 }
 /* HEADER  */
 header{
@@ -29,6 +32,10 @@ header{
 
 header a{
     color: black;
+}
+
+header a.blue-button{
+    padding: 5px 10px;
 }
 header .row{
     align-items: center;
@@ -46,7 +53,45 @@ header .row .col-left,.col-right{
     width: 30%;
 }
 /* MAIN  */
-.jumbotron{
+
+/* jumbotron  */
+.jumbotron-bg{
     height: 70vh;
-    background-color: aqua;
+    background-color: rgb(179,208,231);
 }
+
+.jumbotron-container{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-size: 14px;
+}
+.jumbotron-container h1{
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+.jumbotron-container .row .col-left{
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+}
+.jumbotron-container .row .col-left *{
+    margin-bottom: 25px;
+}
+.jumbotron-container .row .col-left a{
+    padding: 8px 10px;
+}
+.col-left .arrow{
+    font-size: 40px;
+    padding: 25px 5px;
+}
+
+.jumbotron-container .row .col-img{
+    width: 70%;
+}
+.jumbotron-container .col-img img{
+    width: 110%;
+}
+
+
