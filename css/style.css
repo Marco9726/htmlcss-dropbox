@@ -169,6 +169,7 @@ section .fatturazione{
 
 .subs .col-30 .sub-info ul li{
     margin-bottom: 12px;
+    
 }
 
 .try{
@@ -196,6 +197,6 @@ section .fatturazione{
     margin-bottom: 30px;
 }
 
-.fa-check{
+ul .fa-check{
     color:rgb( 1, 96, 255);
 }
