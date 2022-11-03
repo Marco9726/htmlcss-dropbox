@@ -84,9 +84,12 @@ h2,h3,.price{
     font-weight: 600;
 }
 
+.bg-skyblue{
+    background-color:rgb(179,208,231);
+}
+
 /* jumbotron  */
 .jumbotron-bg{
-    background-color: rgb(179,208,231);
     margin-bottom: 100px;
 }
 
@@ -163,7 +166,7 @@ section .fatturazione{
 }
 
 /* !!!! DA FIXARE SPAZIO SOTTO ICONE LI !!!!  */
-.sub-info,.col-right{
+.sub-info,.col-fat .col-right{
     padding: 25px 20px;
 }
 
@@ -280,7 +283,8 @@ main section.small a{
 
 /* contenitore riquadri */
 .squares-container{
-    display: flex;  
+    display: flex; 
+    flex-wrap: wrap; 
 }
 
 .squares-container .col{
@@ -328,7 +332,7 @@ main section.small a{
 
 .square#designit{
     background-color: rgb(162, 211, 155);
-    border: 8px solid rgb(209,233,205);
+    border: 10px solid rgb(209,233,205);
 }
 .square#arizona{
     background-color: rgb(97,9,43);
@@ -342,12 +346,37 @@ main section.small a{
 .square#bicycle{
     background-color: rgb(213,0,31);
 }
-.square#hearst{
-    background-color: rgb(179,208,231);
-}
 .square#lonely-planet{
     background-color: rgb(14,35,129);
 }
 .square#clear-channel{
     background-color: rgb(255,215,47);
+}
+/* quinta (mini) sezione  */
+.squares-container .bottom-container{
+    height: calc(100vw / 6);
+    width: 100%;
+}
+
+.squares-container .bottom-container section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.squares-container .bottom-container section .col-left{
+    width: 60%;
+    padding-right: 50px;
+}
+
+.bottom-container section .col-left h2{
+    margin-bottom: 0;
+}
+
+.bottom-container section .col-right a{
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 8px 0;
 }
