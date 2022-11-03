@@ -269,3 +269,11 @@ section .col-fat .col-right{
 .cards-container .card .img img{
     width: 100%;
 }
+/* quarta sezione  */
+main section.small h2{
+    padding-right: 40%;
+}
+main section.small a{
+    font-size: 14px;
+    text-decoration: underline;
+}
