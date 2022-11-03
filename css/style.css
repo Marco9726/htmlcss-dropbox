@@ -177,9 +177,12 @@ section .fatturazione{
 
 .subs .col-30 .sub-info ul li{
     margin-bottom: 12px;
-    
 }
 
+
+ul.middle li{
+    display: flex;
+}
 .subs .col-30 .sub-info .buy{
     margin-top: 25px;
 }
@@ -201,7 +204,13 @@ section .fatturazione{
     margin-bottom: 30px;
 }
 
-ul .fa-check{
+.middle .icon{
+    margin-right: 6px;
+}
+
+.sub-info ul.check li::before{
+    font: var(--fa-font-solid);
+    content: "\f00c";
     color:rgb( 1, 96, 255);
 }
 
@@ -225,10 +234,6 @@ section .col-fat .sub-info .price{
 section .col-fat .col-right{
     width: 30%;
 }
-
-/* ul li::before{
-    content: '\f1ad';
-} */
 
 /* seconda sezione  */
 .partner .col-img{
