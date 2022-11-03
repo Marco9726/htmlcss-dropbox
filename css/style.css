@@ -134,14 +134,14 @@ section .fatturazione{
 
 .fatturazione ul li{
     margin-right: 20px;
-   /* DA FIXARE ALTEZZA LI  */
+  /* !!!! DA FIXARE ALTEZZA LI  E STILIZ. RADIO!!!! */
 }
 
 /* schema abbonamenti  */
 .subs .col-30{
     width: 30%;
     border: 1px solid lightgray;
-    min-height: 650px;
+    min-height: 680px;
 }
 
 .subs .col-30 .sub-type{
@@ -152,6 +152,7 @@ section .fatturazione{
     border-bottom: 1px solid lightgrey;
 }
 
+/* !!!! DA FIXARE SPAZIO SOTTO ICONE LI !!!!  */
 .subs .col-30 .sub-info{
     padding: 25px 20px;
 }
@@ -200,3 +201,7 @@ section .fatturazione{
 ul .fa-check{
     color:rgb( 1, 96, 255);
 }
+
+/* ul li::before{
+    content: '\f1ad';
+} */
