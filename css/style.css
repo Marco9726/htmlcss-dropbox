@@ -18,6 +18,10 @@ a{
 .blue-button{
     color: white;
     background-color: rgb( 1, 96, 255);
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 0px;
 }
 
 p{
@@ -60,26 +64,26 @@ header .row .col-left,.col-right{
 
 /* regole main  */
 section{
-    width: 50%;
-    border: 1px solid black;
+    width: 52%;
     margin: 0 auto;
 }
 
 h2{
     font-size: 30px;
-    font-weight: 600;
     margin-bottom: 40px;
 }
 
 h3{
     font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h2,h3,.price{
     font-weight: 600;
-    margin-bottom: 15px;
 }
 
 /* jumbotron  */
 .jumbotron-bg{
-    height: 70vh;
     background-color: rgb(179,208,231);
     margin-bottom: 100px;
 }
@@ -87,32 +91,35 @@ h3{
 .jumbotron-container{
     width: 60%;
     margin: 0 auto;
-    padding-top: 50px;
     font-size: 14px;
+    position: relative;
+    top: 50px;
 }
 .jumbotron-container h1{
-    font-size: 55px;
+    font-size: 60px;
     margin-bottom: 40px;
 }
 
 .jumbotron-container .row .col-left{
-    width: 29%;
-    display: flex;
-    flex-direction: column;
+    width: 34%; 
 }
+
+.jumbotron-container .row .col-left .left-container{
+    width: 75%;
+}
+
 .jumbotron-container .row .col-left *{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .jumbotron-container .row .col-left a{
     padding: 8px 10px;
 }
 .col-left .arrow{
     font-size: 40px;
-    padding: 25px 5px;
 }
 
 .jumbotron-container .row .col-img{
-    width: 70%;
+    width: 65%;
 }
 .jumbotron-container .col-img img{
     width: 110%;
@@ -144,7 +151,7 @@ section .fatturazione{
     min-height: 680px;
 }
 
-.subs .col-30 .sub-type{
+.sub-type{
     width: 100%;
     height: 30px;
     text-align: center;
@@ -153,7 +160,7 @@ section .fatturazione{
 }
 
 /* !!!! DA FIXARE SPAZIO SOTTO ICONE LI !!!!  */
-.subs .col-30 .sub-info{
+.sub-info,.col-right{
     padding: 25px 20px;
 }
 
@@ -161,9 +168,6 @@ section .fatturazione{
     margin-bottom: 30px;
 }
 
-.subs .col-30 .sub-info ul .price{
-    font-weight: 600;
-}
 .subs .col-30 .sub-info ul .month{
     color: gray;
 }
@@ -171,10 +175,6 @@ section .fatturazione{
 .subs .col-30 .sub-info ul li{
     margin-bottom: 12px;
     
-}
-
-.try{
-    padding: 8px 18px;
 }
 
 .subs .col-30 .sub-info .buy{
@@ -202,6 +202,29 @@ ul .fa-check{
     color:rgb( 1, 96, 255);
 }
 
+section .col-fat{
+    border: 1px solid lightgrey;
+    margin-top: 35px;
+}
+
+section .col-fat .content{
+    display: flex;
+}
+
+section .col-fat .sub-info{
+    width: 70%;
+}
+
+section .col-fat .sub-info .price{
+    margin-bottom: 40px;
+}
+
+section .col-fat .col-right{
+    width: 30%;
+}
+
+section .col-fat .col-right a{
+    
 /* ul li::before{
     content: '\f1ad';
 } */
