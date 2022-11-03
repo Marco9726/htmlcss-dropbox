@@ -277,3 +277,24 @@ main section.small a{
     font-size: 14px;
     text-decoration: underline;
 }
+
+/* contenitore riquadri */
+.squares-container{
+    display: flex;  
+}
+
+.squares-container .col{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.col .square{
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    border: 1px solid red;
+}
+
