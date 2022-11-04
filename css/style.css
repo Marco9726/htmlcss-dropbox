@@ -37,6 +37,10 @@ header{
     height: 60px;
     font-size: 14px;
     display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
 }
 
 header a{
@@ -91,6 +95,7 @@ h2,h3,.price{
 /* jumbotron  */
 .jumbotron-bg{
     margin-bottom: 100px;
+    padding-top: 70px;
 }
 
 .jumbotron-container{
@@ -147,7 +152,11 @@ section .fatturazione{
 
 .fatturazione ul li{
     margin-right: 20px;
-  /* !!!! DA FIXARE ALTEZZA LI  E STILIZ. RADIO!!!! */
+    display: flex;
+    position: relative;
+}
+.fatturazione ul li input{
+    margin-right:3px;
 }
 
 /* schema abbonamenti  */
@@ -311,8 +320,9 @@ main section.small a{
 .squares-container .big{
     padding: 40px;
     position: relative;
-    background-color: rgb(245,245,245
-    );
+    background-color: rgb(245,245,245);
+    overflow: auto;
+    
 }
 
 .big *{
@@ -396,6 +406,7 @@ main section.small a{
     display: flex;
     justify-content: space-between;
     line-height: 10vh;
+    overflow: clip;
 }
 #FAQ div span{
     font-weight: 600;
