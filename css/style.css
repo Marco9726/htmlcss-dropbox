@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    scroll-behavior: smooth;
 }
 
 a{
@@ -128,9 +127,6 @@ h2,h3,.price{
 }
 .col-left .arrow{
     font-size: 40px;
-}
-.col-left .arrow a{
-    color: black;
 }
 
 .jumbotron-container .row .col-img{
