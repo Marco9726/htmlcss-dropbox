@@ -442,27 +442,36 @@ main section.small a{
     padding-bottom: 25px;
 }
 
-#FAQ div{
-    height: 10vh;
+#FAQ .accordion{
     border-bottom: 1px solid rgb(179,179,179);
+    line-height: 10vh;
+}
+#FAQ .accordion .question{
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
     line-height: 10vh;
-    overflow: clip;
+    height: 10vh;
 }
-#FAQ div span{
-    font-weight: 600;
-}
-#FAQ div span.question{
+#FAQ .accordion .question,.answer{
     font-size: 13px;
 }
-#FAQ div span.arrow{
+
+#FAQ .accordion .answer{
+    display: none;
+}
+
+#FAQ .accordion:hover .answer{
+    display: block;
+}
+
+#FAQ .accordion span.arrow{
     font-size: 20px;
     transform: rotate(90deg);
     margin-right: 25px;
 }
 
-#FAQ div:first-of-type{
+#FAQ .accordion:first-of-type{
     border-top: 1px solid rgb(179,179,179);
 }
 /* FOOTER  */
