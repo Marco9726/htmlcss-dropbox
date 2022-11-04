@@ -386,10 +386,6 @@ main section.small a{
     margin-top: 100px;
 }
 
-#FAQ *{
-    
-}
-
 #FAQ h2{
     padding-bottom: 25px;
 }
@@ -415,4 +411,39 @@ main section.small a{
 
 #FAQ div:first-of-type{
     border-top: 1px solid rgb(179,179,179);
+}
+/* FOOTER  */
+footer{
+    background-color: black;
+    padding-top: 70px;
+}
+
+footer .footer-container{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: white;
+}
+
+.footer-container .row{
+    padding-bottom: 80px;
+}
+
+.footer-container .row .col *{
+    padding-top: 10px;
+}
+
+.footer-container .language{
+   color:rgb(153, 153, 153);
+   padding: 30px 0;
+   width: auto;
+}
+
+.footer-container hr{
+    width: 10%;
+}
+
+.footer-container .language span{
+    transform: rotate(-90deg);
+    display: inline-block;
 }
