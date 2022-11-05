@@ -465,6 +465,10 @@ main section.small a{
     display: block;
 }
 
+#FAQ .accordion:hover .arrow{
+    transform: rotate(-90deg);
+}
+
 #FAQ .accordion span.arrow{
     font-size: 20px;
     transform: rotate(90deg);
