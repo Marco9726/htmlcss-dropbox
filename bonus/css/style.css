@@ -531,3 +531,60 @@ footer .footer-container{
     transform: rotate(-90deg);
     display: inline-block;
 }
+
+/* !PAGINA RISORSE ! */
+.container-risorse{
+    padding-top: 70px;
+    width: 92vw;
+    margin: 0 auto;
+}
+
+.container-risorse .cards-container{
+    background-color: rgb(247,245,241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10vh;
+}
+
+.container-risorse .cards-container .card{
+    width: calc(100% / 4 - 4vw);
+    margin-top: 12vh;
+}
+
+.container-risorse .cards-container .card *{
+    margin-bottom: 2vh;
+}
+
+.container-risorse .cards-container .card img{
+    width: 100%;
+}
+
+.container-risorse .cards-container .card a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-risorse .cards-container .card a:hover{
+    text-decoration: underline;
+}
+
+.cards-container .load{
+    width: 100%;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.cards-container .load span{
+    border: 1px solid black;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.cards-container .load span:hover{
+    border: none;
+    background-color: rgb( 1, 96, 255);
+    color: white;
+
+}
+
